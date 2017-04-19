@@ -1,8 +1,8 @@
 playWidget = function(myTrackId,id){
 	var widgetIframe = document.getElementById(id);
 	var widget = SC.Widget(widgetIframe);
-	var newSoundUrl = '/tracks/'+myTrackId;
-	var url = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com'+newSoundUrl+'&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false';
+	var newSoundUri = '/tracks/'+myTrackId;
+	var url = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com'+newSoundUri+'&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false';
 	jQuery('#'+id).attr('src',url);
 }
 
