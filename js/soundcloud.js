@@ -1,3 +1,9 @@
+/**
+ * Plugin to integrate HTML list with Soundcloud player widget
+ * Version: 1.0
+ * Author: André Nankran <andrenankran@gmail.com.br>
+ */
+
 playWidget = function(myTrackId,id){
 	var widgetIframe = document.getElementById(id);
 	var widget = SC.Widget(widgetIframe);
