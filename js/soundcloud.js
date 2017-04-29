@@ -13,7 +13,6 @@ playWidget = function(myTrackId,id){
 }
 
 $(document).ready(function(){
-
 	if($('.playlists').length > 0){
 		var id,myTrackId,widget,nextTrack;
 		SC.initialize({
@@ -62,5 +61,4 @@ $(document).ready(function(){
 			}
 		}, 100);
 	}
-
 });
